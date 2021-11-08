@@ -9,5 +9,5 @@ public interface IpersorsonaService {
 	public List<Persona>listar();
 	public Optional<Persona>listarId(int id);
 	public int save(Persona p);
-	public void delte(int id);
+	public void delete(int id);
 }
